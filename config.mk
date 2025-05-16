@@ -193,7 +193,7 @@ PRODUCT_PACKAGES += \
     ClockFontNtype82Overlay \
     ClockFontSubwayOverlay
 
-TARGET_PREBUILT_BCR ?= true
+TARGET_PREBUILT_BCR ?= false
 # Basic call recorder
 ifeq ($(strip $(TARGET_PREBUILT_BCR)),true)
 PRODUCT_PACKAGES += \
