@@ -200,6 +200,13 @@ PRODUCT_PACKAGES += \
     Bcr
 endif
 
+# Accord
+TARGET_INCLUDE_ACCORD ?= true
+ifeq ($(TARGET_INCLUDE_ACCORD),true)
+PRODUCT_PACKAGES += \
+    Accord
+endif
+
 # Include {Lato,Rubik} fonts
 $(call inherit-product-if-exists, external/google-fonts/lato/fonts.mk)
 $(call inherit-product-if-exists, external/google-fonts/rubik/fonts.mk)
