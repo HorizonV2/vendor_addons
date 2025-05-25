@@ -47,6 +47,8 @@ PRODUCT_PACKAGES += \
     FontEvolveSansOverlay \
     FontExotwoOverlay \
     FontFifa2018Overlay \
+    FontFluidSansOverlay \
+    FontFucekOverlay \
     FontGoogleSansOverlay \
     FontGrandHotelOverlay \
     FontHarmonySansOverlay \
@@ -56,8 +58,11 @@ PRODUCT_PACKAGES += \
     FontNothingDotHeadlineOverlay \
     FontNothingDotOverlay \
     FontNunitoOverlay \
+    FontMiSansOverlay \
     FontOneplusSansOverlay \
     FontOneplusSlateOverlay \
+    FontOneUISansOverlay \
+    FontOppoSansOverlay \
     FontOswaldOverlay \
     FontPlayOverlay \
     FontQuandoOverlay \
@@ -67,6 +72,7 @@ PRODUCT_PACKAGES += \
     FontRubikOverlay \
     FontSanFranciscoDisplayProSourceOverlay \
     FontSamsungOneOverlay \
+    FontSimpleDaySourceOverlay \
     FontSonySketchOverlay \
     FontStoropiaOverlay \
     FontSurferOverlay \
